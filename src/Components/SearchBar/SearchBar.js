@@ -1,6 +1,5 @@
 import React from 'react';
 import './SearchBar.css';
-import TrackList from '../TrackList/TrackList.js';
 
 class SearchBar extends React.Component {
   constructor(props){
@@ -8,7 +7,6 @@ class SearchBar extends React.Component {
     this.state={
       term:''
     }
-    this.search = this.search.bind(this);
     this.handleTermChange = this.handleTermChange.bind(this);
     this.search = this.search.bind(this);
   }
